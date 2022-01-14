@@ -1,0 +1,34 @@
+_id: req_85c09252604b4c76bb655295ed1e2fee
+type: Request
+parentId: fld_bd8ac82c20844c99b38bd1954bae30e3
+modified: 1632364992695
+created: 1618456361989
+url: "{{ API_URL  }}/message/allMessage"
+name: allMessage
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"threadid": "ay91YzhWM1hINmZPdEhQWUhRM3psQT09",
+    	"draw": 2,
+    	"lastmsgid": 1070
+    }
+parameters: []
+headers:
+  - id: pair_aba25012c4d04591ad31fb91ab968fa9
+    name: Content-Type
+    value: application/json
+  - id: pair_8cecfb6647264befb5a8d04f8890189c
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617680074485.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

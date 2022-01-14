@@ -1,0 +1,24 @@
+_id: req_1f8f57901a6244df9d3066475f81d89c
+type: Request
+parentId: fld_318b6ecdaaf649df94209efdf36078d9
+modified: 1634010257247
+created: 1617679700249
+url: "{{ API_URL  }}/departemen/index"
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_febd33c576d54c51b9c0cdaad9b819cb
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617679700249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

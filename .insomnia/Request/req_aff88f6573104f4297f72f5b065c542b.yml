@@ -1,0 +1,33 @@
+_id: req_aff88f6573104f4297f72f5b065c542b
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1618990568519
+created: 1617847287901
+url: "{{ API_URL  }}/agent/index"
+name: index_post
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_1bdf085d923e43b7ab729b8d0184cf63
+      name: threadid
+      value: "1"
+    - disabled: true
+      id: pair_d7bc030dca6744698b05490adf6cd98d
+      name: staffid
+      value: "3"
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617847287901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

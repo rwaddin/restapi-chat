@@ -1,0 +1,29 @@
+_id: req_c177caacce0e418d82960db317dea6fa
+type: Request
+parentId: fld_24a9ef8c3f89459288ab2d2e4c817b34
+modified: 1631156429773
+created: 1631156406979
+url: "{{ API_URL  }}/thread/list"
+name: list
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - id: pair_c3d4a722d5604282bb43abc13ea1924c
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - id: pair_9b30a932f620478a976813da8c35d469
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1618773792033.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

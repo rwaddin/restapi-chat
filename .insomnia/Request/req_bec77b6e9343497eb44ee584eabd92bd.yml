@@ -1,0 +1,24 @@
+_id: req_bec77b6e9343497eb44ee584eabd92bd
+type: Request
+parentId: fld_6ac8879c9bda416aaa06c3e679be73ec
+modified: 1633944423356
+created: 1633944235951
+url: "{{ API_URL  }}/config/customer"
+name: customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4cf01fe04c6b46dc83670f1c5fac0151
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1619534163694
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

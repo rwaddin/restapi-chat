@@ -1,0 +1,29 @@
+_id: req_18304b81a2b746d9b0934d51320d2863
+type: Request
+parentId: wrk_17a13d239d754eee9387d8cb2a217b4d
+modified: 1639970401350
+created: 1634613530199
+url: localhost:3000/thread
+name: My Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"test": "addin"
+    }
+parameters: []
+headers:
+  - id: pair_b7e3ec12fbc6430aa57f51fd1aa78891
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1634613530199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

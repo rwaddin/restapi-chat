@@ -1,0 +1,41 @@
+_id: req_56802d25b9ca404c8ff001750ecd0aba
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1618295477523
+created: 1618294647558
+url: "{{ API_URL  }}/agent/changeStatus"
+name: changeStatus
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: true
+      id: pair_1bdf085d923e43b7ab729b8d0184cf63
+      name: status
+      value: on
+    - disabled: true
+      id: pair_bf71e60fa8a846eb99af73c727606ccc
+      name: status
+      value: away
+    - disabled: false
+      id: pair_1a7e052fae6e45258c91218fbe9d897c
+      name: status
+      value: off
+    - id: pair_05e82315223044659af2ed14cd90a466
+      name: id
+      value: "1"
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617826713681.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

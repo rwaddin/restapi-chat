@@ -1,0 +1,30 @@
+_id: req_ae4d176b8e6048b894754f0ac910fc97
+type: Request
+parentId: fld_bd8ac82c20844c99b38bd1954bae30e3
+modified: 1618280741777
+created: 1618204752980
+url: "{{ API_URL  }}/message/sendFile"
+name: sendFile
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: false
+      id: pair_d0d2f7f47e294f0fb3e549ef8d174811
+      name: threadid
+      value: "3"
+parameters: []
+headers:
+  - id: pair_aba25012c4d04591ad31fb91ab968fa9
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617680448722.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

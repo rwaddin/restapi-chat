@@ -1,0 +1,32 @@
+_id: req_e67de219e1eb45fb89265718460ebad8
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1628152159119
+created: 1617961093409
+url: "{{ API_URL  }}/agent/info"
+name: info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "threadid": "d25TVXhJcFg1WFpPZEJXYTMxaXhTZz09"
+    }
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/json
+  - id: pair_fe98c86f80eb42c5b5a865b0cf0cab8f
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617806139461.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

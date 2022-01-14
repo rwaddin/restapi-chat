@@ -1,0 +1,45 @@
+_id: req_844b4e3eb70f4508b2970a6784b687c5
+type: Request
+parentId: fld_a46a622c1b5049b5b2c6b5a8664e9f4a
+modified: 1639970421140
+created: 1617617262993
+url: "{{ API_URL }}/auth/staff"
+name: staff_post
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: false
+      id: pair_d3ee3a0eb3214b979905d6de922cbe02
+      name: email
+      value: addin@rw.com
+    - disabled: true
+      id: pair_efd80bb659784ebaa3f060162559b2c7
+      name: password
+      value: password
+    - disabled: false
+      id: pair_fba432961ada424496e94e8548b3f8d4
+      name: password
+      value: password
+    - id: pair_d496096f1ade495a8ffda6143f270d9f
+      name: shift
+      value: "1"
+parameters: []
+headers:
+  - id: pair_a94c213416974d7eb95476e5619d8156
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - disabled: true
+    id: pair_fece8c56ecea4801884f33271d9b6645
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617617262993
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

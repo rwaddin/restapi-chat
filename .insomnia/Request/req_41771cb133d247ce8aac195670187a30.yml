@@ -1,0 +1,21 @@
+_id: req_41771cb133d247ce8aac195670187a30
+type: Request
+parentId: fld_a46a622c1b5049b5b2c6b5a8664e9f4a
+modified: 1627353321333
+created: 1623201357403
+url: "{{ API_URL }}/auth/shift"
+name: shift_get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1615926204555.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

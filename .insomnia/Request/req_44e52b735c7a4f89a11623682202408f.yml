@@ -1,0 +1,35 @@
+_id: req_44e52b735c7a4f89a11623682202408f
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1617848724432
+created: 1617848413557
+url: "{{ API_URL  }}/agent/addAgent"
+name: addAgent_post
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_1bdf085d923e43b7ab729b8d0184cf63
+      name: threadid
+      value: "1"
+    - id: pair_f832d3ac0e3542ffb7ac38491110bcea
+      name: staffid
+      value: "1"
+    - id: pair_f854069671a4496d8a655a7480ba9cff
+      name: deptid
+      value: "1"
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617764991022.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_717afd82ba1541559687d992dfa086cb
+type: Request
+parentId: fld_24a9ef8c3f89459288ab2d2e4c817b34
+modified: 1632881440841
+created: 1631254445981
+url: "{{ API_URL  }}/thread/detail"
+name: detail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"subthreadid": "TWhPSWZvaEt5ajRsL1RhdlZqQkNrUT09"
+    }
+parameters: []
+headers:
+  - id: pair_c3d4a722d5604282bb43abc13ea1924c
+    name: Content-Type
+    value: application/json
+  - id: pair_775937924fb845d395da62823d49873a
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1618183056176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

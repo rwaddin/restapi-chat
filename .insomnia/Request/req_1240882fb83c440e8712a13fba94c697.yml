@@ -1,0 +1,32 @@
+_id: req_1240882fb83c440e8712a13fba94c697
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1631154792790
+created: 1631094001454
+url: "{{ API_URL  }}/agent/profile"
+name: profile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"result" : "list"
+    }
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/json
+  - id: pair_fe98c86f80eb42c5b5a865b0cf0cab8f
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617785565242.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

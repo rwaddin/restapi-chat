@@ -1,0 +1,29 @@
+_id: req_92673e105f4c40c7a99f905fcab74842
+type: Request
+parentId: fld_a46a622c1b5049b5b2c6b5a8664e9f4a
+modified: 1627716693684
+created: 1627697660674
+url: "{{ API_URL }}/auth/admin"
+name: admin_post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjc3MTU5NjQsImV4cCI6MTYyNzcxNzc2NCwidGlkIjo2LCJlbWFpbCI6InN1cGVydmlzb3JAbGl2ZWNoYXQuY29tIn0.b1pXd-GqqBk1cnUxgufEjB_bVoFS06syr17xU-dEFzw"
+    }
+parameters: []
+headers:
+  - id: pair_a94c213416974d7eb95476e5619d8156
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1617617263043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

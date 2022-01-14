@@ -1,0 +1,24 @@
+_id: req_323018418e904ddeb54a8caa9eb4256f
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1632467833632
+created: 1632467787775
+url: "{{ API_URL  }}/agent/bgcolor"
+name: bgColor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_cad59b1ca351461cb935be81036a8d3e
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617831857236.2812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

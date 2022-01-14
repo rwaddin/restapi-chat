@@ -1,0 +1,32 @@
+_id: req_187e969c3d8c4dbaad3bd900080c3809
+type: Request
+parentId: fld_bd8ac82c20844c99b38bd1954bae30e3
+modified: 1633054260968
+created: 1632973501308
+url: "{{ API_URL  }}/message/delete"
+name: delete
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 1294
+    }
+parameters: []
+headers:
+  - id: pair_2e5a24aaaba94c3da425757446dc5629
+    name: Content-Type
+    value: application/json
+  - id: pair_ba96f84683cb4e5d9f9573c28c0bd3bb
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617897024867
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

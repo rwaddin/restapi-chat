@@ -1,0 +1,30 @@
+_id: req_ee3d10f370344cee98158572423d542e
+type: Request
+parentId: fld_318b6ecdaaf649df94209efdf36078d9
+modified: 1618288286810
+created: 1617681613027
+url: "{{ API_URL  }}/departemen/staff"
+name: staff_post
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: false
+      id: pair_cfd8be40c93d473282a4c88bf0221cb6
+      name: deptid
+      value: "1"
+parameters: []
+headers:
+  - id: pair_f2b8a4f5456045a8a29f3cc39c237154
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617632872307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_5c8bef23497b41109ddde5e708096dc0
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1621238987534
+created: 1621232671778
+url: "{{ API_URL  }}/agent/logout"
+name: logout
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: false
+      id: pair_139c4a4336be4e05a9081414ed87cc59
+      name: message
+      value: halo
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - id: pair_3531d5aefbc944a49170e5aa09ed0c48
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617703268363.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_c47cb15f94bd4110a089ffbc97536a95
+type: Request
+parentId: fld_24a9ef8c3f89459288ab2d2e4c817b34
+modified: 1618899209111
+created: 1618892783083
+url: "{{ API_URL  }}/thread/end"
+name: end
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_ef61cf23da4840bca5691ca4d8775067
+      name: threadid
+      value: "1"
+    - id: pair_4ac008fac29045cd835067b07ad75fe6
+      name: staffid
+      value: "7"
+parameters: []
+headers:
+  - id: pair_c3d4a722d5604282bb43abc13ea1924c
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1618419350519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

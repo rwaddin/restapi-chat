@@ -1,0 +1,33 @@
+_id: req_c5ce372504a341f9a5f8e95db79370a2
+type: Request
+parentId: fld_bd8ac82c20844c99b38bd1954bae30e3
+modified: 1631931776398
+created: 1631931670478
+url: "{{ API_URL  }}/message/log"
+name: logs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"threadid":"SFd2T0tCN2tCYzdNM0Z6YmZBVm5jUT09",
+    	"draw" : 1
+    }
+parameters: []
+headers:
+  - id: pair_aba25012c4d04591ad31fb91ab968fa9
+    name: Content-Type
+    value: application/json
+  - id: pair_8cecfb6647264befb5a8d04f8890189c
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617679887367.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,54 @@
+_id: req_8218dcb236f94a19b6830acc6bc1326b
+type: Request
+parentId: fld_bd8ac82c20844c99b38bd1954bae30e3
+modified: 1621055430555
+created: 1617946761833
+url: "{{ API_URL  }}/message/send"
+name: send
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_e39e4beb2f904166ac81b40537bbcebc
+      name: id
+      value: "1"
+    - id: pair_542d911df103406eb8e8d1bedf0d0303
+      name: time
+      value: "12121212"
+    - id: pair_78e438b39a0e4451b45a025573c601ad
+      name: name
+      value: Akhul Syaifudin
+    - disabled: false
+      id: pair_f615141e5eb448d69e84090f91dd93e9
+      name: tipe
+      value: text
+    - id: pair_914a8bb34e0d4521a9c35c51c7cbcf01
+      name: actor
+      value: staff
+    - id: pair_82f88b74b65b48609681246acfffbebe
+      name: message
+      value: halo kak ini link http://addin.my.id atau sini https://addin.my.id bisa
+        juga
+        addin.my.id  https://console.firebase.google.com/u/1/project/addin-firebasee/database/addin-firebasee-default-rtdb/data
+    - id: pair_d379a3c0d27244e3802b1b7580770420
+      name: threadid
+      value: "1"
+    - disabled: false
+      id: pair_ef3bd4487dff4d85a066b8a07ece9e5b
+      name: firebaseid
+      value: as
+parameters: []
+headers:
+  - id: pair_2e5a24aaaba94c3da425757446dc5629
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1617946761833
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

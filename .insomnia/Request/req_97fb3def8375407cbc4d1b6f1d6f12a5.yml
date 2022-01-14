@@ -1,0 +1,29 @@
+_id: req_97fb3def8375407cbc4d1b6f1d6f12a5
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1631526580014
+created: 1631526560281
+url: "{{ API_URL  }}/agent/status"
+name: status
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - id: pair_850130e01c56427a93aa22c6a6d7aa7e
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - id: pair_cad59b1ca351461cb935be81036a8d3e
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617837000791.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

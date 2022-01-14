@@ -1,0 +1,21 @@
+_id: req_99656732476b402380a59b408c6b0908
+type: Request
+parentId: fld_318b6ecdaaf649df94209efdf36078d9
+modified: 1618221232195
+created: 1617681306564
+url: "{{ API_URL  }}/departemen/isOnline"
+name: isOnline
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617648481621
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

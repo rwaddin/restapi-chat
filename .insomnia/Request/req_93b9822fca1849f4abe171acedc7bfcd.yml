@@ -1,0 +1,50 @@
+_id: req_93b9822fca1849f4abe171acedc7bfcd
+type: Request
+parentId: fld_a46a622c1b5049b5b2c6b5a8664e9f4a
+modified: 1630042638976
+created: 1618301795749
+url: "{{ API_URL  }}/auth/needtoken"
+name: tes saja
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: true
+      id: pair_2c7176e3bacd497997b47f672c2aba55
+      multiline: false
+      name: x
+      type: text
+      value: ayggtQgwa9K0bJ2eny3UVBpZH9s6qC9%2BLWMul1aPRI%2BqIL5Au2lVvcVDMQAyN7UgHnb3cZyyQ650dgb%2FOpgCCw%3D%3D
+    - disabled: true
+      id: pair_729fe63b2f394aef820d03ec0309140b
+      multiline: false
+      name: y
+      type: text
+      value: 0rNVk227twrl4XSum%2BFT1XRwXROMCUAvsrhUxw6UQAZ0PmAIxZ5u2TjfjNXYTBYtGOVb2Q5rz1pVDZHFW%2Bgmpg%3D%3D
+    - disabled: true
+      id: pair_4ba614649da4472192dbb2528fb8b5b9
+      name: bln
+      value: "4"
+    - disabled: true
+      id: pair_da5627ff28d248adb53f8ca92ce28f4f
+      name: thn
+      value: "2021"
+parameters: []
+headers:
+  - id: pair_a94c213416974d7eb95476e5619d8156
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - disabled: false
+    id: pair_0689f158fd2148a3bdd1039c99dcf898
+    name: Authorization
+    value: bearer askdhasudasdhasdkahdka
+authentication: {}
+metaSortKey: -1614235146167.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_10212a251b45469fbbf28d99a92ba037
+type: Request
+parentId: fld_a46a622c1b5049b5b2c6b5a8664e9f4a
+modified: 1628767356181
+created: 1617678667019
+url: "{{ API_URL }}/auth/customer"
+name: customer_post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nama" : "addin",
+    	"email": "addin@gm.com",
+    	"deptid" : 2,
+    	"message" : "message from insomnia",
+    	"referrer" : "https://rumahweb.com"
+    }
+parameters: []
+headers:
+  - id: pair_a94c213416974d7eb95476e5619d8156
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1617617262943
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

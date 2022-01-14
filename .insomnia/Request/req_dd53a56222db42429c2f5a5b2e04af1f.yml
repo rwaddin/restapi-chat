@@ -1,0 +1,41 @@
+_id: req_dd53a56222db42429c2f5a5b2e04af1f
+type: Request
+parentId: fld_24a9ef8c3f89459288ab2d2e4c817b34
+modified: 1620111257401
+created: 1620107277476
+url: "{{ API_URL  }}/thread/sendRating"
+name: rating
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - disabled: false
+      id: pair_ef61cf23da4840bca5691ca4d8775067
+      name: threadid
+      value: "1"
+    - disabled: false
+      id: pair_5c4d8b69b9ef443ea7ef31a883a3d4fb
+      name: star
+      value: "2"
+    - id: pair_35522abe48ef4127ab63f6bb458db3d3
+      name: customerid
+      value: "1"
+    - disabled: false
+      id: pair_09f94b68a65b4f2bad657538aee68384
+      name: message
+      value: ramah lingkungan kak tengkyu
+parameters: []
+headers:
+  - id: pair_c3d4a722d5604282bb43abc13ea1924c
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1618655644862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

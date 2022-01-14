@@ -1,0 +1,34 @@
+_id: req_eb06690ea25a45dfbb1b68783eebac95
+type: Request
+parentId: fld_24a9ef8c3f89459288ab2d2e4c817b34
+modified: 1632889308255
+created: 1632881444024
+url: "{{ API_URL  }}/thread/history"
+name: history
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"limit" : 5,
+    	"page" : 0,
+    	"search" : "l"
+    }
+parameters: []
+headers:
+  - id: pair_c3d4a722d5604282bb43abc13ea1924c
+    name: Content-Type
+    value: application/json
+  - id: pair_9b30a932f620478a976813da8c35d469
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1618714718447.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

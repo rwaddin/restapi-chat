@@ -1,0 +1,24 @@
+_id: req_b90807e6669a467997c94c444a0e82bc
+type: Request
+parentId: fld_d258f8f717214ac3841a0e4abfbefea6
+modified: 1634010309483
+created: 1618464530268
+url: "{{ API_URL  }}/agent/threads"
+name: threads
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_3531d5aefbc944a49170e5aa09ed0c48
+    name: Authorization
+    value: "{{ JWT_TOKEN  }}"
+authentication: {}
+metaSortKey: -1617723842583.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
