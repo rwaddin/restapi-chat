@@ -1,20 +1,23 @@
-_id: req_bec77b6e9343497eb44ee584eabd92bd
+_id: req_7f891e65cf3244a0bbff9704d90408b4
 type: Request
 parentId: fld_6ac8879c9bda416aaa06c3e679be73ec
-modified: 1643189948704
-created: 1633944235951
-url: "{{ API_URL  }}/config/customer"
-name: customer
+modified: 1643249507153
+created: 1643189536504
+url: "{{ _.API_URL
+  }}/config/rw_hash?type=encrypt&string=TDNiNC9HUkw2OTE5aElOMEwwajl4Zz09"
+name: rw_hash
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_4cf01fe04c6b46dc83670f1c5fac0151
+  - id: pair_77a96210dc854ad884a2c2b2f3694a89
     name: Authorization
-    value: "{{ JWT_TOKEN  }}"
+    value: "{{ _.JWT_TOKEN }}"
+    description: ""
+    disabled: true
 authentication: {}
-metaSortKey: -1619534163694
+metaSortKey: -1643189536504
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
